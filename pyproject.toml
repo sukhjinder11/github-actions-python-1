@@ -1,0 +1,17 @@
+[tool.poetry]
+name = "greetings"
+version = "0.0.1"
+description = "greetings code"
+authors = ["SukhjinderSingh"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.8"
+requests = "^2.31.0"
+
+[tool.poetry.group.dev.dependencies]
+pytest = "^7.2.1"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
