@@ -1,0 +1,18 @@
+name: CI
+on: [push, workflow_dispatch]
+
+jobs:
+  ci:
+    runs-on: ubuntu-latest
+    steps:
+      - name: lint
+        run: echo "linting"
+      - name: testing
+        run: echo "running unit tests"
+  deploy:
+    runs-on: ubuntu-latest
+    steps:
+      - name: deploy
+        run: echo "deploying"
+      
+
