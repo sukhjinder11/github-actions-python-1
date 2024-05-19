@@ -14,4 +14,4 @@ class TestGreetings(unittest.TestCase):
         self.assertEqual(self.greet.hello_world(), 'hello world')
 
     def test_goodbye(self):
-        self.assertEqual(self.greet.goodbye(), 'goodbye!!')
+        self.assertEqual(self.greet.goodbye(), 'goodbye!')
