@@ -20,7 +20,7 @@ jobs:
       - name: linting
         run: poetry run flake8 ./
       - name: testing
-        run: echo "running unit tests"
+        run: poetry run pytest
   deploy:
     runs-on: ubuntu-latest
     steps:
